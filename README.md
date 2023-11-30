@@ -2,11 +2,11 @@
 **Climate Risk In Marginalized Communities**
 
 Team Members: 
-Bailey Forster
-Zoe Kearney 
-Reeya Kumbhojkar
-Viraj Meruliya
-Braeden Reinoso
+Bailey Forster \n
+Zoe Kearney \n
+Reeya Kumbhojkar \n
+Viraj Meruliya \n
+Braeden Reinoso \n
 
 Five minute presentation: 
 
@@ -58,6 +58,9 @@ Demographic:
 
 Results: XGBoost model with all 19 features achieved 93% accuracy and 89% f2-score. Feature importance gives new insights into causes and distribution of PM2.5 risk. Ozone and Diesel PM are among the top contributors, thus these other air toxins are good indicators of high pm2.5.  Without Ozone and Diesel PM the model still provides a reasonable prediction of risk with 84% accuracy and 78% f2-score. 
 
+![Model Pipeline](https://github.com/zkearney7730/EJ-Erdos-Project/assets/77342133/7935b35f-bf84-4904-82b8-c4713ad15d11)
+
+
 Future Work: 
 Multinomial model - low, medium, high risk based on WHO, EPA, US standards
 Separate classification models for target groups and use feature importance to identify the most significant pm2.5 sources or health risks affecting minority groups. 
@@ -70,7 +73,11 @@ will allow for better understanding of the impact of envrionmental and economic 
 
 **Dependencies**
 
+<pre><code> Scikit-Learn, Pandas, Numpy, Matplotlib
+</code></pre>
+
 **Data Access**
+
 
 **Included scripts and models**
 
