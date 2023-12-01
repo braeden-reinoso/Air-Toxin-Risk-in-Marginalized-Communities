@@ -46,10 +46,10 @@ Demographic:
 - Primary Industry share [%]
 - Secondary Industry Share [%]
 - Traffic Proximity [annual average daily traffic volume over year / distance]
-- White Population [%]
-- Black only Population [%]
-- Asian only Population [%]
-- Hispanic only Population [%]
+- White only Population [%]
+- Black Population [%]
+- Asian Population [%]
+- Hispanic Population [%]
 - Population Density [persons / land area]
 - Health Insurance [%]
 - Poverty [# people below poverty / # of people poverty status was determined for, %]
@@ -83,7 +83,7 @@ will allow for better understanding of the impact of envrionmental and economic 
         - [American Community Survey 5-Year Estimates Subject Tables for 2017-2021: Poverty Status in the last 12 months](https://data.census.gov/table/ACSST5Y2021.S1701?y=2021&d=ACS%205-Year%20Estimates%20Subject%20Tables)\
         - [American Community Survey 5-year Estimate Data Profiles for 2017-2021: Demographic and Housing Estimates](https://data.census.gov/table?y=2021&d=ACS%205-Year%20Estimates%20Data%20Profiles)\
         - [American Community Survey 5-year Estimate Data Profiles for 2017-2021: Selected Economic Characteristis](https://data.census.gov/table/ACSDP5Y2021.DP03?y=2021&d=ACS%205-Year%20Estimates%20Data%20Profiles)\
-- General EPA data can be found [here](https://www.epa.gov/ejscreen/download-ejscreen-data). Project specific file dependances:\ 
+- General EPA data can be found [here](https://www.epa.gov/ejscreen/download-ejscreen-data). Project specific file dependances:\
         - CSV file (National Level) + Tract Level in this [table](https://www.epa.gov/ejscreen/download-ejscreen-data)
 
 
