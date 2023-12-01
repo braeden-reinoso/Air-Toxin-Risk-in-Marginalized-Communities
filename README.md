@@ -2,7 +2,7 @@
 # Climate Risk In Marginalized Communities
 A project completed for the Fall 2023 Data Science Course at the Erdos Institute.
 
-Team Members: 
+Team Members: \
 [Bailey Forster](https://www.linkedin.com/in/bailey-forster-0b8555174/) \
 [Zoe Kearney](https://www.linkedin.com/in/zoe-kearney/) \
 [Reeya Kumbhojkar](https://www.linkedin.com/in/reeyakumbhojkar5/) \
@@ -79,11 +79,11 @@ will allow for better understanding of the impact of envrionmental and economic 
 
 ## Data Access
 
-- General Census data can be found [here](https://www.census.gov/data/developers/data-sets/acs-5year.html). Project specific file dependancies: 
-        - [American Community Survey 5-Year Estimates Subject Tables for 2017-2021: Poverty Status in the last 12 months](https://data.census.gov/table/ACSST5Y2021.S1701?y=2021&d=ACS%205-Year%20Estimates%20Subject%20Tables)
-        - [American Community Survey 5-year Estimate Data Profiles for 2017-2021: Demographic and Housing Estimates](https://data.census.gov/table?y=2021&d=ACS%205-Year%20Estimates%20Data%20Profiles)
-        - [American Community Survey 5-year Estimate Data Profiles for 2017-2021: Selected Economic Characteristis](https://data.census.gov/table/ACSDP5Y2021.DP03?y=2021&d=ACS%205-Year%20Estimates%20Data%20Profiles)
-- General EPA data can be found [here](https://www.epa.gov/ejscreen/download-ejscreen-data). Project specific file dependances: 
+- General Census data can be found [here](https://www.census.gov/data/developers/data-sets/acs-5year.html). Project specific file dependancies:\
+        - [American Community Survey 5-Year Estimates Subject Tables for 2017-2021: Poverty Status in the last 12 months](https://data.census.gov/table/ACSST5Y2021.S1701?y=2021&d=ACS%205-Year%20Estimates%20Subject%20Tables)\
+        - [American Community Survey 5-year Estimate Data Profiles for 2017-2021: Demographic and Housing Estimates](https://data.census.gov/table?y=2021&d=ACS%205-Year%20Estimates%20Data%20Profiles)\
+        - [American Community Survey 5-year Estimate Data Profiles for 2017-2021: Selected Economic Characteristis](https://data.census.gov/table/ACSDP5Y2021.DP03?y=2021&d=ACS%205-Year%20Estimates%20Data%20Profiles)\
+- General EPA data can be found [here](https://www.epa.gov/ejscreen/download-ejscreen-data). Project specific file dependances:\ 
         - CSV file (National Level) + Tract Level in this [table](https://www.epa.gov/ejscreen/download-ejscreen-data)
 
 
@@ -118,8 +118,8 @@ will allow for better understanding of the impact of envrionmental and economic 
 [relevant literature](https://github.com/zkearney7730/EJ-Erdos-Project/tree/main/relevant%20literature)
 
 ## Contact 
-To further discuss this project or use associate code feel free to contact us: 
-Bailey Forster - bailey.forster@gmail.com
+To further discuss this project or use associate code feel free to contact us:\
+Bailey Forster - bailey.forster@gmail.com\
 Zoe Kearney - zoe.kearney@mail.mcgill.ca \
 Reeya Kumbhojkar - reeyakumbhojkar5@gmail.com \
 Viraj Meruliya - viraj.meruliya@mail.mcgill.ca \
