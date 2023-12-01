@@ -13,7 +13,7 @@ Five minute presentation:
 
 ## Project description
 
-**Project Overview**: The Environmental Protection Agency (EPA) monitors concentrations of air toxins in the US, including particulate matter smaller than 2.5 micrometers (PM2.5). These fine particles are able to enter the lungs and bloodstream, posing a significant health risk. There is also evidence that people of color in the US are at increased risk for adverse health effects due climate change and pollution (see review article: Berberian et al. 2022). Our goal is to create a model that uses 2021 ACS 5-Year Estimates Data Profiles and EPA data to identify tracts likely to be at risk of high pm2.5 levels.
+**Project Overview**: The Environmental Protection Agency (EPA) monitors concentrations of air toxins in the US, including particulate matter smaller than 2.5 micrometers (PM2.5). These fine particles are able to enter the lungs and bloodstream, posing a significant health risk. There is also evidence that people of color in the US are at increased risk for adverse health effects due climate change and pollution (see review article: Berberian et al. 2022). Our goal is to create a model that uses 2021 ACS 5-Year Estimates Data Profiles and EPA data to identify tracts likely to be at risk of high PM2.5 levels.
 
 Stakeholders: climate and health researchers, policy makers, state and national-level government.
 KPI: f2 (metric for combined recall and precision)
@@ -23,7 +23,7 @@ f-beta: calculated from precision and recall. Beta>1 indicates greater weight on
 
 Our model is optimized by maximizing f2 (f-beta with beta=2). Since the goal of this model is to identify high-risk tracts for further study, we have decided to place a greater emphasis on recall over precision.
 
-**Approach**: We have developed a binary classification model that predicts whether a census tract is high-risk for pm2.5 levels. We consider pm2.5> 9 µg/m3 high risk as supported by a recent EPA proposal.
+**Approach**: We have developed a binary classification model that predicts whether a census tract is high-risk for PM2.5 levels. We consider PM2.5> 9 µg/m3 high risk as supported by a recent EPA proposal.
 Many rural tracts had insufficient environmental or demographic data, so we applied an urban cutoff of population density > 500/km².
 
 **Training**: 68% of the data was used to train 5 different model types: logistic regression, decision tree, random forest, AdaBoost, and XGBoost. GridSearchCV was used for hyperparameter tuning and cross validation on each model separately.
@@ -57,14 +57,14 @@ Demographic:
 
   Note: All racial groups as defined in the US Census
 
-**Results**: XGBoost model with all 19 features achieved 93% accuracy and 89% f2-score. Feature importance gives new insights into causes and distribution of PM2.5 risk. Ozone and Diesel PM are among the top contributors, thus these other air toxins are good indicators of high pm2.5.  Without Ozone and Diesel PM the model still provides a reasonable prediction of risk with 84% accuracy and 78% f2-score. 
+**Results**: XGBoost model with all 19 features achieved 93% accuracy and 89% f2-score. Feature importance gives new insights into causes and distribution of PM2.5 risk. Ozone and Diesel PM are among the top contributors, thus these other air toxins are good indicators of high PM2.5.  Without Ozone and Diesel PM the model still provides a reasonable prediction of risk with 84% accuracy and 78% f2-score. 
 
 ![Model Pipeline](https://github.com/zkearney7730/EJ-Erdos-Project/assets/77342133/7935b35f-bf84-4904-82b8-c4713ad15d11)
 
 
 **Future Work**: 
 Multinomial model - low, medium, high risk based on WHO, EPA, US standards
-Separate classification models for target groups and use feature importance to identify the most significant pm2.5 sources or health risks affecting minority groups. 
+Separate classification models for target groups and use feature importance to identify the most significant PM2.5 sources or health risks affecting minority groups. 
 E.g. control for areas with high hispanic/latino populations
 
 Allow policy makers and state legislators to create targeted solutions and implement Evidence Based Policy, particularly around regulation. 
