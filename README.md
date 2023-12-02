@@ -9,7 +9,7 @@ Team Members: \
 [Viraj Meruliya](https://www.linkedin.com/in/viraj-meruliya-437036124/) \
 [Braeden Reinoso](https://github.com/braeden-reinoso)
 
-[Five minute presentation](https://youtu.be/VWcZbJxaakQ)
+Five minute presentation: https://youtu.be/VWcZbJxaakQ
 
 ## Project description
 
