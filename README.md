@@ -9,7 +9,7 @@ Team Members: \
 [Viraj Meruliya](https://www.linkedin.com/in/viraj-meruliya-437036124/) \
 [Braeden Reinoso](https://github.com/braeden-reinoso)
 
-Five minute presentation: 
+![Five minute presentation](Climate Risk Presentation.mp4)
 
 ## Project description
 
