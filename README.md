@@ -1,30 +1,11 @@
 
-# Climate Risk In Marginalized Communities
-A project completed for the Fall 2023 Data Science Course at the Erdos Institute.
-
-Team Members: \
-[Bailey Forster](https://www.linkedin.com/in/bailey-forster-0b8555174/) \
-[Zoe Kearney](https://www.linkedin.com/in/zoe-kearney/) \
-[Reeya Kumbhojkar](https://www.linkedin.com/in/reeyakumbhojkar5/) \
-[Viraj Meruliya](https://www.linkedin.com/in/viraj-meruliya-437036124/) \
-[Braeden Reinoso](https://github.com/braeden-reinoso)
-
-Five minute presentation: https://youtu.be/VWcZbJxaakQ
+# Air Toxin Risk In US Urban Communities
 
 ## Project description
 
 **Project Overview**: The Environmental Protection Agency (EPA) monitors concentrations of air toxins in the US, including particulate matter smaller than 2.5 micrometers (PM2.5). These fine particles are able to enter the lungs and bloodstream, posing a significant health risk. There is also evidence that people of color in the US are at increased risk for adverse health effects due climate change and pollution (see review article: Berberian et al. 2022). Our goal is to create a model that uses 2021 ACS 5-Year Estimates Data Profiles and EPA data to identify tracts likely to be at risk of high PM2.5 levels.
 
-Stakeholders: climate and health researchers, policy makers, state and national-level government.
-KPI: f2 (metric for combined recall and precision)
-Precision: % of predicted positives that are true positives
-Recall: % of true positives that are predicted as positive
-f-beta: calculated from precision and recall. Beta>1 indicates greater weight on recall, while beta<1 indicates greater weight on precision.
-
-Our model is optimized by maximizing f2 (f-beta with beta=2). Since the goal of this model is to identify high-risk tracts for further study, we have decided to place a greater emphasis on recall over precision.
-
-**Approach**: We have developed a binary classification model that predicts whether a census tract is high-risk for PM2.5 levels. We consider PM2.5> 9 µg/m3 high risk as supported by a recent EPA proposal.
-Many rural tracts had insufficient environmental or demographic data, so we applied an urban cutoff of population density > 500/km².
+**Approach**: We developed a binary classification model that predicts whether a census tract is high-risk for PM2.5 levels. We consider PM2.5> 9 µg/m3 high risk as supported by a recent EPA proposal. A census tract with population density > 500/km² is considered urban.
 
 **Training**: 68% of the data was used to train 5 different model types: logistic regression, decision tree, random forest, AdaBoost, and XGBoost. GridSearchCV was used for hyperparameter tuning and cross validation on each model separately.
 Validation: 12% of the data was used to compare 5 model candidates (one of each type)
@@ -116,6 +97,16 @@ will allow for better understanding of the impact of envrionmental and economic 
 - Final results from models and EDA 
 
 [relevant literature](https://github.com/zkearney7730/EJ-Erdos-Project/tree/main/relevant%20literature)
+
+## Team:
+[Bailey Forster](https://www.linkedin.com/in/bailey-forster-0b8555174/) \
+[Zoe Kearney](https://www.linkedin.com/in/zoe-kearney/) \
+[Reeya Kumbhojkar](https://www.linkedin.com/in/reeyakumbhojkar5/) \
+[Viraj Meruliya](https://www.linkedin.com/in/viraj-meruliya-437036124/) \
+[Braeden Reinoso](https://github.com/braeden-reinoso)
+This project was completed for the Fall 2023 Data Science Course at the Erdos Institute.
+
+Five minute presentation: https://youtu.be/VWcZbJxaakQ
 
 ## Contact 
 To further discuss this project or use associate code feel free to contact us:\
