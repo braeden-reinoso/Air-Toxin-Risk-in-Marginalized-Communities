@@ -98,23 +98,15 @@ will allow for better understanding of the impact of envrionmental and economic 
 
 [relevant literature](https://github.com/zkearney7730/EJ-Erdos-Project/tree/main/relevant%20literature)
 
-## Team:
-[Bailey Forster](https://www.linkedin.com/in/bailey-forster-0b8555174/) \
-[Zoe Kearney](https://www.linkedin.com/in/zoe-kearney/) \
-[Reeya Kumbhojkar](https://www.linkedin.com/in/reeyakumbhojkar5/) \
-[Viraj Meruliya](https://www.linkedin.com/in/viraj-meruliya-437036124/) \
-[Braeden Reinoso](https://github.com/braeden-reinoso)
+## Team
+[Bailey Forster](https://www.linkedin.com/in/bailey-forster-0b8555174/) - bailey.forster@gmail.com \
+[Zoe Kearney](https://www.linkedin.com/in/zoe-kearney/) - zoe.kearney@mail.mcgill.ca \
+[Reeya Kumbhojkar](https://www.linkedin.com/in/reeyakumbhojkar5/) - reeyakumbhojkar5@gmail.com \
+[Viraj Meruliya](https://www.linkedin.com/in/viraj-meruliya-437036124/) - viraj.meruliya@mail.mcgill.ca \
+[Braeden Reinoso](https://github.com/braeden-reinoso) - braedenar@gmail.com
 This project was completed for the Fall 2023 Data Science Course at the Erdos Institute.
 
 Five minute presentation: https://youtu.be/VWcZbJxaakQ
-
-## Contact 
-To further discuss this project or use associate code feel free to contact us:\
-Bailey Forster - bailey.forster@gmail.com\
-Zoe Kearney - zoe.kearney@mail.mcgill.ca \
-Reeya Kumbhojkar - reeyakumbhojkar5@gmail.com \
-Viraj Meruliya - viraj.meruliya@mail.mcgill.ca \
-Braeden Reinoso - braedenar@gmail.com
 
 
 
